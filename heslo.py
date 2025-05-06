@@ -6,4 +6,4 @@ zvuk = random.choice(zvuky)
 
 index = zvuky.index(zvuk)
 
-print("Vybral jsem zvuk \"" + zvuk + "\" na indexu " + str(index)
+print("Vybral jsem zvuk \"" + zvuk + "\" na indexu " + str(index))
