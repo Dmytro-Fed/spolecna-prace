@@ -13,19 +13,16 @@ v6 = random.choice(kreatury)
 index = kreatury.index (v6)
 print (f"Vybral jsem tvora {v6} na indexu {index}")
 
-počasí = ("slunečno", "déšť", "sníh", "mlha", "bouřka")
 import random
+počasí = ("slunečno", "déšť", "sníh", "mlha", "bouřka")
 v5 = random.choice(počasí)
+index = počasí.index (v5)
 print ("Vybral jsem počas",v5)
 
 import random
-
 zvuky = ["haf", "mňau", "kikirikí", "béé", "kvák"]
-
-zvuk = random.choice(zvuky)
-
-index = zvuky.index(zvuk)
-
+v3 = random.choice(zvuky)
+index = zvuky.index(v3)
 print("Vybral jsem zvuk \"" + zvuk + "\" na indexu " + str(index))
 
 import random
