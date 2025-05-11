@@ -6,7 +6,6 @@ v1 = vybrana_osobnost
 index = osobnosti.index(v1)
 print("Vybral jsem osobnost" + v1 + "na indexu" + str(index))
 
-
 import random
 kreatury = ["drak", "elf", "obr", "skřítek", "čaroděj"]
 v6 = random.choice(kreatury)
@@ -31,3 +30,8 @@ v4 = (random.choice(povolani))
 index = povolani.index (v4)
 print(f"Vybral jsem si {v4} na indexu {index}")
 
+import random
+citoslovce = ["aah","auvajs","vrr","ughh","vžuch"]
+v9 = random.choice(citoslovce)
+index = citoslovce.index (v9)
+print (f"Vybral jsem citoslovce {v9} na indexu {index}")
