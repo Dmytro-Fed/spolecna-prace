@@ -6,7 +6,6 @@ index = napoje.index(v8)
 print("Vybral jsem nápoj " + v8 + " na indexu " + str(index))
 
 import random
-
 planety = ["Merkur", "Venuše", "Země", "Mars", "Jupiter"]
 v2 = random.choice(planety)
 index = planety.index(v2)+1
@@ -55,7 +54,6 @@ v7 = random.choice(obleceni)
 index = obleceni.index(v7)
 print("Výbral jsem oblečení ", (obleceniR), " na indexu ", (v7) )
 
-=======
 import random
 emoji = ["🤚","🖕🏿","🖐","✋","🖖","👌"]
 v10 = random.choice(emoji)
