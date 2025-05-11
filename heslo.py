@@ -1,5 +1,13 @@
 
 import random
+osobnosti = ["Einstein", "Newton", "Tesla", "Curie", "Hawking"]
+vybrana_osobnost = random.choice(osobnosti)
+v1 = vybrana_osobnost
+index = osobnosti.index(v1)
+print("Vybral jsem osobnost" + v1 + "na indexu" + str(index))
+
+
+import random
 kreatury = ["drak", "elf", "obr", "skřítek", "čaroděj"]
 v6 = random.choice(kreatury)
 index = kreatury.index (v6)
@@ -25,3 +33,4 @@ povolani = ["kuchař", "číšník", "programátor", "veterinář", "učitel", "
 v4 = (random.choice(povolani))
 index = povolani.index (v4)
 print(f"Vybral jsem si {v4} na indexu {index}")
+
