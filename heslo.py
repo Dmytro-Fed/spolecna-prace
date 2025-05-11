@@ -35,3 +35,9 @@ citoslovce = ["aah","auvajs","vrr","ughh","vžuch"]
 v9 = random.choice(citoslovce)
 index = citoslovce.index (v9)
 print (f"Vybral jsem citoslovce {v9} na indexu {index}")
+
+import random
+obleceni = ["Klobouk", "šála", "rukavice", "brýle", "boty" ]
+v7 = random.choice(obleceni)
+index = obleceni.index(v7)
+print("Výbral jsem oblečení ", (obleceniR), " na indexu ", (v7) )
