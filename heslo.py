@@ -60,3 +60,4 @@ v4 = (random.choice(povolani))
 index = povolani.index (v4)
 print(f"Vybral jsem si {v4} na indexu {index}")
 
+print("Vygenerovalo se heslo“,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10)
